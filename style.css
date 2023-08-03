@@ -46,9 +46,9 @@ nav{
   background: #00c25e;
   display: block;
   margin: auto;
-  transition: 0.5s;
+  transition: 0.25s;
 }
 
-.nav-links ul li::hover::after{
+.nav-links ul li:hover::after{
   width: 100%;
 }
