@@ -1,5 +1,7 @@
 var navLinks = document.getElementById("navLinks");
 
+// Menu opening & closing functions
+
 function openMenu() {
   navLinks.style.right = "0";
 }
