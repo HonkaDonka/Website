@@ -73,14 +73,9 @@ nav {
   color: #fff;
 }
 
-.menu-open-button{
-  display: none;
+nav .fa-solid{
+ display: none; 
 }
-
-.menu-close-button{
-  display: none;
-}
-
 
 @media(max-width: 700px) {
   .text-box h1{
@@ -104,19 +99,9 @@ nav {
     right: -200px;
     text-align: left;
     z-index: 2;
+    transition: 0.8s;
   }
-  .menu-open-button{
-    padding-left: 100%;
-    float: right;
-    display: block;
-    color: #fff;
-    margin: 10px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  .menu-close-button{
-    padding-left: 100%;
-    float: right;
+  nav .fa-solid{
     display: block;
     color: #fff;
     margin: 10px;
