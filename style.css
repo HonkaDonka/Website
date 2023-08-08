@@ -83,9 +83,17 @@ nav .fa-brands{
     position: relative;
 }
 
+.course{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px
+}
+
+/*
 @media(max-width: 700px) {
   
-  /* html {
+  html {
     overflow-x: hidden;
     height: 100%;
   }
@@ -125,6 +133,6 @@ nav .fa-brands{
     margin: 10px;
     font-size: 20px;
     cursor: pointer;
-  } */
+  }
   
-}
+}*/
