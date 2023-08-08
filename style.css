@@ -64,7 +64,7 @@ nav {
 }
 
 .text-box h1{
-  font-size: 65px;
+  font-size: 45px;
 }
 
 .text-box p{
@@ -75,6 +75,11 @@ nav {
 
 nav .fa-solid{
  display: none; 
+}
+
+html {
+    overflow-x: hidden;
+    width: 100%;
 }
 
 @media(max-width: 700px) {
@@ -101,13 +106,14 @@ nav .fa-solid{
     height: 100vh;
     width: 200px;
     top: 0;
-    right: -200px;
+    right: -400px;
     text-align: left;
     z-index: 2;
     transition: 0.8s;
   }
   
   nav .fa-solid{
+    padding: 10px;
     display: block;
     color: #fff;
     margin: 10px;
