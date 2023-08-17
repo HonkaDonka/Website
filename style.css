@@ -72,8 +72,8 @@ nav .fa-brands {
   position: relative;
 }
 
-/* 
-.text-box{
+ 
+.header-text {
   width: 90%;
   color: #fff;
   position: absolute;
@@ -83,17 +83,17 @@ nav .fa-brands {
   text-align: center;
 }
 
-.text-box h1{
+.header-text h1 {
   font-size: 45px;
 }
 
-.text-box p{
+.header-text p {
   margin: 10px, 0px, 40px;
   font-size: 20px;
   color: #fff;
 }
 
-
+/*
 .proj{
   width: 80%;
   margin: auto;
