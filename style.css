@@ -96,12 +96,12 @@ nav .fa-brands {
 
 /* ABOUT SECTION */
 
-#about {
+#about-me {
   padding: 80px 0;
   color: #ababab;
 }
 
-.sub-title {
+.subtitle {
   font-size: 60px;
   color: #fff;
   font-weight: 600;
@@ -155,15 +155,37 @@ nav .fa-brands {
 
 /* PROJECT SECTION */
 
-#proj {
+#projects {
   padding: 30px 0;
 }
 
-.proj-list{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 40px;
-  margin-top: 50px;
+/* .project-list{
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+} */
+
+.proj{
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.8);
+  /* position: relative;
+  overflow: hidden; */
+}
+
+.subtitle {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.proj img{
+  /* width: 100%; */
+  border-radius: 10px;
+  /* display: block; */
+  max-width: 400px;
 }
 
 /*
